@@ -19,13 +19,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in Food technology from <Link href={`https://niftem.ac.in/`} target="_blank" className="underline">National Institute of Food Technology Entrepreneurship and Management, Kundli</Link>, I decided to pursue my passion for programming. It all started when I was in my third year of college, I came across an NPTEL course <Link href={`https://onlinecourses.nptel.ac.in/noc22_cs101/preview`} target="_blank" className="underline">Problem solving through programming in C</Link>. I was fascinated by the course, which increased my curiosity about programming and led me to enroll in a coding bootcamp. I learned Java, Data Structures & Algorithms and Full-Stack Web Development. After completing the bootcamp, I was selected to work as a <Link href={`https://ninjasfiles.s3.amazonaws.com/certificate5811f5c95161ac2cf583dc4be2e67fc61c24.pdf`} target="_blank" className="underline">Teaching Assistant</Link>, where I helped students with Java and Data Structures & Algorithms.
-      </p>
-
-      <p>
-        Currently, I am working as an SDE-I at <Link href={`https://www.deskera.com/`} target="_blank" className="underline">Deskera</Link>. My core stack is React, Next.js, Node.js, MongoDB and Express. I have hands-on experience in building responsive web apps using mentioned technologies along with TypeScript and Tailwind CSS. I'm currently looking for opportunities to work as a full-stack developer. If you have any opportunities, please feel free to <Link href={`#contact`} className="underline">reach out to me</Link>.
-      </p>
+      <p className="mb-3"> I am a Software Engineer with over 1.5 years of experience building scalable and responsive web applications. My expertise lies in using modern technologies like React, Next.js, Node.js, TypeScript, and Tailwind CSS to craft user-centric solutions. </p> <p> Currently, I am working at <Link href={`https://www.deskera.com/`} target="_blank" className="underline">Deskera</Link>, where I focus on delivering performant and maintainable web applications. I am passionate about solving complex problems, optimizing performance, and building tools that enhance user experiences. </p> <p> I’m looking to grow my skills further by working in collaborative and challenging environments where I can learn from experienced engineers while contributing to impactful projects. If you have any opportunities, please feel free to <Link href={`#contact`} className="underline">reach out to me</Link>. </p>
     </motion.section>
   );
 }

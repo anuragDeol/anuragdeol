@@ -151,30 +151,35 @@ export const skillsData = [
 
 export const experiencesData = [
   {
-    title: "Teaching Assistant",
-    location: "Remote",
-    org: "Coding Ninjas",
-    description:
-      "I worked as a TA for Data Structures and Algorithms at Coding Ninjas' full-stack bootcamp for 4.5 months. During my tenure I resolved 1000+ doubts and received a positive feedback rating of 4.9/5",
-    icon: React.createElement(FaRegDotCircle),
-    date: "Sept'22 - Jan'23",
-  },
-  {
-    title: "Trainee SDE",
+    title: "Software Engineer",
     location: "Remote",
     org: "Deskera",
-    description:
-      "I worked on Deskera AI Assistant from concept to implementation, evolving it into Deskera Copilot, which is now integrated in Deskera software suite. Also contributed to multiple Deskera projects, resolved support tickets, and gained knowledge of the company's workflows and processes.",
+    description: "Developing the key features for Deskera's ERP platform and AI Copilot. Focused on creating scalable solutions and improving user experience across multiple products including the main website and Deskera Books.",
+    icon: React.createElement(FaRegDotCircle),
+    date: "Oct'23 - Present",
+  },
+  {
+    title: "Software Engineer Trainee",
+    location: "Remote",
+    org: "Deskera",
+    description: "Built and implemented the frontend for Deskera's AI assistant from the ground up. Contributed to the development of responsive UI components and integrated core platform services.",
     icon: React.createElement(FaRegDotCircle),
     date: "June'23 - Oct'23",
   },
   {
-    title: "SDE-I",
+    title: "Freelance Software Engineer",
     location: "Remote",
-    org: "Deskera",
-    description:
-      "Presently working as an SDE-I at Deskera, primarily building features for Deskera Copilot. Along with that I've worked in various teams within the company, including Deskera's main website and Deskera Books.",
-      icon: React.createElement(FaRegDotCircle),
-    date: "Oct'23 - Present",
+    org: "TeacherOn",
+    description: "Provided personalized DSA mentorship to clients, creating custom learning plans and helping them develop problem-solving skills. Focused on competitive programming techniques and interview preparation.",
+    icon: React.createElement(FaRegDotCircle),
+    date: "Feb'23 - May'23",
   },
+  {
+    title: "Teaching Assistant",
+    location: "Remote",
+    org: "Coding Ninjas",
+    description: "Mentored over 1,000 students in Data Structures and Algorithms, maintaining a 4.9/5 feedback rating. Helped students improve their problem-solving skills through personalized guidance and support.",
+    icon: React.createElement(FaRegDotCircle),
+    date: "Sept'22 - Jan'23",
+  }
 ] as const;
